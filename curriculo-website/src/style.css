@@ -8,6 +8,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-image: url('./assets/images/fundo-header.jpg');
+    background-position: 200%;
     width: 100%;
     min-height: 250px;
 }
@@ -22,14 +23,15 @@ nav{
     padding: 25px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #9C0085;
+    color: #583B76;
     font-family:monospace;
     font-weight: bold;
+    font-size: 14px;
 }
 .minha-foto{
     display: flex;
     border-radius: 50%;
-    margin-left: 180px;
+    margin-left: 100px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     padding: 0;
@@ -38,23 +40,27 @@ nav{
     flex-direction: column;
     text-align: center;
     display: flex;
-    margin-right: 200px;
+    margin-right: 100px;
     flex-shrink: 0;
     
 }
 .info-group h1{
     font-size: 20px;
     font-family: cursive;
+    color: #E2869B;
+    border-bottom: 1px solid black;
 }
 .info-group p{
     font-size: 12px;
+    margin-top: 10px;
 }
 .about-me{
     flex-direction: column  ;
-    text-align: justify;
+    text-align: center;
     display: flex;
-    margin-right: 40px;
+    margin-right: 100px;
     flex-shrink: 0;
+    margin-top: 20px;
     
 }
 .about-me h1{
@@ -62,12 +68,15 @@ nav{
     text-align: center;
     font-family: cursive;
     border-bottom: 1px solid black;
+    color: #E2869B;
 }
 .about-me p{
     font-size: 12px;
+    margin-top: 10px;
+    text-align: justify;
 }
 .academic-group{
-    background-color: #fbe8d4;
+    background-color: #ECD4EC;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -75,13 +84,25 @@ nav{
     text-align: center;
 }
 .pt1{
-    margin-left: 200px;
+    margin-left: 250px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .pt1 li, p{
+    text-align: left; 
+ }
+ .pt1 li{
+    padding: 5px;
  }
 .pt2{
-    margin-right: 200px;
+    margin-right: 250px;
 }
 .skills-group{
-  background-color: #fbe8d4;
+  background-image: url('./assets/images/fundo-header.jpg');
+  background-position: 200%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -89,13 +110,13 @@ nav{
   text-align: center;
 }
 .skills-pt1{
-  margin-left: 200px;
+  margin-left: 250px;
 }
 .skills-pt2{
-  margin-right: 200px;
+  margin-right: 250px;
 }
 .hobbies-group{
-    background-color: #fbe8d4;
+    background-color: #ECD4EC;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -103,14 +124,14 @@ nav{
     text-align: center;
 }
 .hobbies-pt1{
-    margin-left: 200px;
+    margin-left: 250px;
  }
 .hobbies-pt2{
-    margin-right: 200px;
+    margin-right: 250px;
  }
 
 footer{
-    background-color: brown;
+    background-color: #FB7CCD;
     text-align: center;
     max-height: 100%;
 }
