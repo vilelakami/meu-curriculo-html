@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./assets/images/fundo-header.jpg');
+    width: 100%;
+    min-height: 250px;
+}
+nav{
+    display: flex;
+    margin: 15px;
+    margin-top: -180px;
+    margin-left: -300px;
+}
+.link{
+    display: block;
+    padding: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #9C0085;
+    font-family:monospace;
+    font-weight: bold;
+}
+.minha-foto{
+    display: flex;
+    border-radius: 50%;
+    margin-left: 180px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    padding: 0;
+}
+.info-group{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    margin-right: 200px;
+    flex-shrink: 0;
+    
+}
+.info-group h1{
+    font-size: 20px;
+    font-family: cursive;
+}
+.info-group p{
+    font-size: 12px;
+}
+.about-me{
+    flex-direction: column  ;
+    text-align: justify;
+    display: flex;
+    margin-right: 40px;
+    flex-shrink: 0;
+    
+}
+.about-me h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    border-bottom: 1px solid black;
+}
+.about-me p{
+    font-size: 12px;
+}
+.academic-group{
+    background-color: #fbe8d4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.pt1{
+    margin-left: 200px;
+ }
+.pt2{
+    margin-right: 200px;
+}
+.skills-group{
+  background-color: #fbe8d4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.skills-pt1{
+  margin-left: 200px;
+}
+.skills-pt2{
+  margin-right: 200px;
+}
+.hobbies-group{
+    background-color: #fbe8d4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.hobbies-pt1{
+    margin-left: 200px;
+ }
+.hobbies-pt2{
+    margin-right: 200px;
+ }
+
+footer{
+    background-color: brown;
+    text-align: center;
+    max-height: 100%;
+}
+
