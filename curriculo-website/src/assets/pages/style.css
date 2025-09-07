@@ -1,6 +1,4 @@
-:root {
-    font-family: "Alice", serif;
-}
+/* parte um */
 header{
     margin: 20px;
     display: flex; 
@@ -15,6 +13,7 @@ nav a{
     color: #301406;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 30px;
 }
 a:hover{
     color: #7a5b3e;
@@ -23,20 +22,21 @@ body{
     background-image: url('/src/assets/images/fundo.jpg');
     background-size: cover;
 }
-
+/* parte dois */
 #container{
     max-width: 1100px;
     background-color: #E2E3A9;
     border-radius: 20px;
     margin: 50px auto;
 }
+/* grupo INFO, meu nome, contatos e foto */
 .info{
     display: flex;
 }
 
 #info-group{
-    margin: 100px 20px auto;
-    line-height: 10px;
+    margin: 120px 20px auto;
+    line-height: 50px;
 }
 
 #info-group h1{
@@ -47,68 +47,132 @@ body{
 #info-group p{
     text-align: center;
     font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid;
 }
+
 img{
     width: 200px;
     padding: 50px;
-    border-radius: 300px;
+    border-radius: 200px;
     display: block;
+    padding-bottom: 30px;
 }
+/* grupo ABOUT, divisao onde escrevo sobre mim */
 #about-me{
-    border-top: 1px solid;
     margin: auto 40px auto;
+    padding-bottom: 30px;
+
 }
+
 #about-me h2{
+    padding-top: 30px;
+    padding-bottom: 15px;
     font-size: 25px;
 }
+
 #about-me p{
     line-height: 150%;
     font-size: 20px;
+    text-align: justify;
 }
+/* grupo FORMAÇÃO, onde mostro minhas formações acadêmicas */
 #formacao-academica{
     border-top: 1px solid;
     border-bottom: 1px solid;;
     margin: auto 40px auto;
+    padding-bottom: 30px;
+}
+
+#formacao-academica h2{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 #formacao-academica ol{
     padding-left: 15px;
 }
+
 #formacao-academica li{
     line-height: 150%;
     font-size: 20px;
 }
+/* grupo SKILLS, onde mostro minhas softs e hard skills */
 #skills{
-    display: flex;
-    
+    display: flex;  
+    justify-content: center;
 }
+
 #skills .soft-skills{
-    margin-left: 50px;
+    margin-left: 10px;
 }
+
 #skills .soft-skills, .hard-skills{
     border: 1px solid;
     border-radius: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
+
 #skills .soft-skills h2{
     text-align: center;
+    padding: 10px;
 }
+
 #skills .soft-skills ul{
     line-height: 150%;
     font-size: 20px;
+    padding-left: 35px;
+    padding-right: 10px;
 }
+
 #skills .hard-skills{
     margin-left: 80px;
 }
+
 #skills .hard-skills h2{
     text-align: center;
+    padding: 10px;
 }
+
 #skills .hard-skills ul{
     line-height: 150%;
     font-size: 20px;
+    padding-left: 35px;
+    padding-right: 10px;
 }
+/* grupo PROFISSIONAL, onde mostro minha experiência */
 #profissional{
     border-top: 1px solid;
     margin: auto 40px auto;
+    padding-bottom: 30px;
+    padding-bottom: 50px;
+}
+
+#profissional h2{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#profissional p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+
+#profissional ul{
+    font-size: 20px;
+    line-height: 150%;
+    padding-left: 30px;
+}
+/* parte três */
+footer {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
 }
