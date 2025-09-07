@@ -61,18 +61,52 @@ img{
 #about-me h2{
     font-size: 25px;
 }
+#about-me p{
+    line-height: 150%;
+    font-size: 20px;
+}
 #formacao-academica{
     border-top: 1px solid;
+    border-bottom: 1px solid;;
     margin: auto 40px auto;
+}
+#formacao-academica ol{
+    padding-left: 15px;
+}
+#formacao-academica li{
+    line-height: 150%;
+    font-size: 20px;
 }
 #skills{
     display: flex;
-    justify-content: center;
-    border-top: 1px solid;
-    margin: auto 40px auto;
+    
 }
-.soft-skills, .hard-skills{
-    margin: auto;
+#skills .soft-skills{
+    margin-left: 50px;
+}
+#skills .soft-skills, .hard-skills{
+    border: 1px solid;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#skills .soft-skills h2{
+    text-align: center;
+}
+#skills .soft-skills ul{
+    line-height: 150%;
+    font-size: 20px;
+}
+#skills .hard-skills{
+    margin-left: 80px;
+}
+#skills .hard-skills h2{
+    text-align: center;
+}
+#skills .hard-skills ul{
+    line-height: 150%;
+    font-size: 20px;
 }
 #profissional{
     border-top: 1px solid;
